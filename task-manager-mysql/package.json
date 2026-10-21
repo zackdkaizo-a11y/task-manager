@@ -1,0 +1,23 @@
+{
+  "name": "task-manager-mysql",
+  "version": "1.0.0",
+  "description": "API REST con Node.js y MySQL para gestión de tareas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+}
